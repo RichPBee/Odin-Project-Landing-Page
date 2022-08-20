@@ -1,3 +1,42 @@
 * {
     border: 1px solid red;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header, .footer {
+    height: min-content;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist{
+    display: flex;
+    gap: 16px;
+    margin-right: 8px;
+}
+
+.content.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text{
+    flex: auto;
+    margin: auto;
+    padding: 32px;
+}
+
+.hero-image {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 500px;
+    border: 1px solid blue;
+}

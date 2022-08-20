@@ -66,7 +66,7 @@ img {
     flex: 0 0 auto;
     height: 300px;
     width: 500px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .content.products {
@@ -151,7 +151,7 @@ img {
     border-radius: 10px;
     justify-content: space-around;
     background-color: #3882f6;
-    width: 600px;
+    width: 800px;
     height: 100px;
 }
 

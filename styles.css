@@ -62,11 +62,25 @@ body{
     height: min-content;
     flex: 0 0 auto;
     border: 3px solid black;
-
 }
 
 .card-image {
     border: 5px solid blue;
     width: 100px;
     height: 100px;
+}
+
+
+
+.content.action {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

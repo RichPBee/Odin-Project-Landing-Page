@@ -49,6 +49,7 @@ a {
     flex: auto;
     margin: auto;
     padding: 32px;
+    max-width: 600px;
 }
 
 .hero-title {
@@ -174,4 +175,8 @@ img {
 
 .action-button.hero {
     border: 1px solid #3882f6;
+}
+
+.action-text {
+    font-size: 14px;
 }

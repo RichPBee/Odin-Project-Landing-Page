@@ -22,12 +22,13 @@ body{
 .title {
     color:#F9FAF8;
     font-size: 24px;
+    margin-left: 35px;
 }
 
 .navlist{
     display: flex;
     gap: 16px;
-    margin-right: 8px;
+    margin-right: 35px;
     list-style-type: none;  
 }
 
@@ -36,10 +37,12 @@ a {
     color: #F9FAF8;
 }
 
-.content.hero{
+.content.hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .hero-text{
@@ -61,7 +64,7 @@ img {
 
 .hero-image {
     flex: 0 0 auto;
-    height: 500px;
+    height: 300px;
     width: 500px;
     border-radius: 8px;
 }

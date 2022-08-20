@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    height: 100vh;
 }
 
 .header, .footer {
@@ -39,4 +40,33 @@ body{
     height: 200px;
     width: 500px;
     border: 1px solid blue;
+}
+
+.content.products {
+    height: min-content;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-container {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: min-content;
+    height: min-content;
+    flex: 0 0 auto;
+    border: 3px solid black;
+
+}
+
+.card-image {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
 }
